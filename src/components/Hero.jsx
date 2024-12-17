@@ -19,7 +19,7 @@ export default function Hero({
       sx={{
         minHeight: { xs: "auto", md: "calc(80vh - 64px)" },
         paddingTop: 8,
-        paddingBottom: 16,
+        paddingBottom: { xs: 6, md: 16 },
         textAlign: "center",
       }}
       spacing={{ xs: 4, md: 4 }}
